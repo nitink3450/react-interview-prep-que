@@ -12,7 +12,7 @@ console.warn('multi rendered');
             <h2>add: {add}</h2>
             <h2>manualRenderings: {manualRendering} </h2>
         </div>
-    }, [manualRendering]);
+    }, [manualRendering,add]);
 
     return (
         <>
