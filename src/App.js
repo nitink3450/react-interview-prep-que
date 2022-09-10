@@ -1,16 +1,17 @@
 import './App.css';
-import UseState from './useState/UseState';
-import UseEffect1 from './useEffect/UseEffect';
-import UseReducer1 from './useReducer/UseReducer';
-import UseMemo from './useMemo/UseMemo';
-import AxiosFetch from './Axios&Fetch/AxiosFetch';
-import UseRef1 from './useRef/UseRef1';
-import UseRef2 from './useRef/UseRef2';
-import UseREF3 from './useRef/UseREF3'
+import UseEffect2 from './cleanUP/CleanUp.';
+// import UseState from './useState/UseState';
+// import UseEffect1 from './useEffect/UseEffect';
+// import UseReducer1 from './useReducer/UseReducer';
+// import UseMemo from './useMemo/UseMemo';
+// import AxiosFetch from './Axios&Fetch/AxiosFetch';
+// import UseRef1 from './useRef/UseRef1';
+// import UseRef2 from './useRef/UseRef2';
+// import UseREF3 from './useRef/UseREF3'
 function App() {
   return (
     <div className="App">
-    <h1>Q.1.Axios Vs Fetch</h1>
+    {/* <h1>Q.1.Axios Vs Fetch</h1>
       <AxiosFetch/>
       <hr />
     <h1>Q.2.useState Hook</h1>
@@ -31,7 +32,8 @@ function App() {
       <UseRef2/>
       <hr />
       <UseREF3/>
-      <hr />
+      <hr /> */}
+      <UseEffect2/>
     </div>
   );
 }
