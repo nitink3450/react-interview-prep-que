@@ -41,7 +41,7 @@ useEffect(<function>,<dependancy>)
 #useContext: react context is a way to manage state globally 
 -it can be used together with the useState hook to share the state between deeply nested componets more easily than the useState alone
 -the main idea of using the context is to allow your commponents to access the some global data and re-rednder when that global data is changed
--useContext solve the props drilling problem when u have to pas down the data from parent to the child
+-useContext solve the props drilling problem when u have to pass down the data from parent to the child
 
 Q.5.What are React Life cycles Explain each one with Example?
 
